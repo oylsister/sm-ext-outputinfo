@@ -46,11 +46,11 @@
 					//"read" "17"
 					"read" "115" // http://world-source.ru/_fr/42/monster.cstrike.txt
 				}
-                "linux"
-                {
-                    "signature" "CEventAction__operator_delete"
-                    "read" "12"
-                }
+				"linux"
+				{
+					"signature" "CEventAction__operator_delete"
+					"read" "12"
+				}
 			}
 		}
 
@@ -62,11 +62,11 @@
 				//"windows" "\x6A\x00\x68\x2A\x2A\x2A\x2A\x6A\x01\x68\x2A\x2A\x2A\x2A\x6A\x1C"
 				"windows" "\x55\x8B\xEC\x83\x2A\x2A\x8B\x2A\x2A\x56\x8B\x2A\x8B\x2A\x2A\x89" // http://world-source.ru/_fr/42/monster.cstrike.txt
 			}
-            "CEventAction__operator_delete"
-            {
-                "library" "server"
-                "linux" "@_ZN12CEventActiondlEPv"
-            }
+			"CEventAction__operator_delete"
+			{
+				"library" "server"
+				"linux" "@_ZN12CEventActiondlEPv"
+			}
 		}
 	}
 }
